@@ -4,7 +4,7 @@
         <div class="default text">{{ placeholder }}</div>
         <i class="dropdown icon"></i>
         <div class="menu dropdown_menu">
-            <div v-for="option in items" class="item" data-value="{{ option.id }}" data-text="{{ option.name }}">{{ option.name}}</div>
+            <div v-for="option in items" class="item" data-value="option.id" data-text="option.name">{{ option.name}}</div>
         </div>
     </div>
 </template>
