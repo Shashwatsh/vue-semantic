@@ -10,7 +10,7 @@
 <template>
 
 <div :id="element_id" class="ui fluid search selection dropdown">
-    <input type="hidden" name="{{name}}" value="{{selection}}">
+    <input type="hidden" :name="name" :value="selection">
     <i class="dropdown icon"></i>
     <div class="default text">{{default_text}}</div>
     <div class="menu dropdown_menu">
